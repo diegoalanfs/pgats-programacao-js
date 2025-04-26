@@ -16,11 +16,11 @@ console.table({
 })
 console.log("=========================================================")
 
-function verificarQtdRacaoPorDia(peso){
+function verificarQtdRacaoPorDia(peso) {
     return peso * 30
 }
 
-function verificarDuracaoDoEstoque(estoqueAtualRacao, gramasPorDia){
+function verificarDuracaoDoEstoque(estoqueAtualRacao, gramasPorDia) {
     //return Math.floor(estoqueAtualRacao/gramasPorDia)
-    return parseInt(estoqueAtualRacao/gramasPorDia)
+    return parseInt(estoqueAtualRacao / gramasPorDia)
 }

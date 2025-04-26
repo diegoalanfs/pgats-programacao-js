@@ -26,13 +26,13 @@ console.log(pesoDoTutor)
 
 const pesoDoDogOperadorTernario = 21
 const porte = pesoDoDogOperadorTernario <= 10 // se if
-              ? 'pequeno'
-              : pesoDoDogOperadorTernario <= 20 // senao se / else if
-              ? 'médio'
-              : 'grande' // senao
+    ? 'pequeno'
+    : pesoDoDogOperadorTernario <= 20 // senao se / else if
+        ? 'médio'
+        : 'grande' // senao
 
-              // pesoDoDogOperadorTernario <= 10 ? 'pequeno' : pesoDoDogOperadorTernario <= 20 ? 'médio' : 'grande'
+// pesoDoDogOperadorTernario <= 10 ? 'pequeno' : pesoDoDogOperadorTernario <= 20 ? 'médio' : 'grande'
 
-               console.log(porte)
+console.log(porte)
 
-{/* <condicao> ? <acao se verdadeiro> : <acao se falso> */}
+{/* <condicao> ? <acao se verdadeiro> : <acao se falso> */ }

@@ -6,7 +6,7 @@ let adotado = true
 
 console.log("============= Tag de Identificação ===============")
 console.log(`Nome: ${nome.toUpperCase()}`)
-console.log(`Raça: ${raca.slice(0,1).toUpperCase()}${raca.slice(1).toLowerCase()}`)
+console.log(`Raça: ${raca.slice(0, 1).toUpperCase()}${raca.slice(1).toLowerCase()}`)
 console.log(`Peso: ${peso} kg`)
 
 console.table([{

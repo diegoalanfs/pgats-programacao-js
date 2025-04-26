@@ -18,3 +18,6 @@ console.table([{
 
 const a = "Teste 01"
 console.log(`Imprimindo o ${a}`)
+
+
+//

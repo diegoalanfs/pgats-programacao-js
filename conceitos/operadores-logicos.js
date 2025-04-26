@@ -13,8 +13,8 @@ console.log(nomePossuiApenasUmaPalavra && nomePossuiAteDezCaracteres) // true
 
 // || - OU / OR
 const dog = {
-  adotado: false,
-  peso: 5.3
+    adotado: false,
+    peso: 5.3
 }
 
 console.log(dog.adotado || dog.peso < 10) // verdadeiro

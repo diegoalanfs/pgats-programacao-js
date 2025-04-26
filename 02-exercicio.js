@@ -68,6 +68,6 @@ function tornarAPrimeiraLetraMaiuscula(nome) {
   return nome.charAt(0).toUpperCase() + nome.slice(1, nome.length).toLowerCase()
 }
 
-function verificarSeONomeEValido(nome) { 
+function verificarSeONomeEValido(nome) {
   return nome.split(" ").length === 1
 }
