@@ -48,7 +48,7 @@ function exibirTabelaPets(pets, tempoDisponivel) {
     const dadosPets = pets.map(pet => ({
         Nome: pet.nome,
         Porte: formatarPorte(pet.porte),
-        TempoAtividade: pet.tempoAtividade,
+        TempoAtividade: `${pet.tempoAtividade} min`,
         Plano: `${ajustarMensagemTempo(pet.tempoAtividade)}${verificarAtividadePorPorte(pet)}`
     }));
     
