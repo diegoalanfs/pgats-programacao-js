@@ -32,11 +32,12 @@ console.log("===============================================================")
 
 
 function verificarPorte(dog) {
+    const porte = dog.peso <= 10 ? "Pequeno" : "Médio"
     console.log(`Nome: ${dog.nome}`)
     console.log(`Peso: ${dog.peso}`)
-    console.log(`Porte: ${dog.peso <= 10 ? "Pequeno" : "Médio"}\n`)
+    console.log(`Porte: ${porte}\n`)
 
-    return dog.peso <= 10 ? "Pequeno" : "Médio"
+    return porte
 }
 
 /*
