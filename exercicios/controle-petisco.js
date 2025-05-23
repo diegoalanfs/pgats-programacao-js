@@ -17,7 +17,7 @@ Extra: transforme a lógica em uma função (da forma que conseguir)
 const quantidadePetiscosDisponiveis = 4
 
 for (let petisco = 1; petisco <= quantidadePetiscosDisponiveis; petisco++) {
-  console.log(`Dando o petisco de nº ${petisco} para o Totó`)
+    console.log(`Dando o petisco de nº ${petisco} para o Totó`)
 }
 
 console.log(`Satisfeito, chega de petiscos por hoje!`)
@@ -25,9 +25,9 @@ console.log(`Satisfeito, chega de petiscos por hoje!`)
 // Exemplo aluno - extra
 
 const alimentarDog = (quantidadePetiscos) => {
-  for (let i = 1; i <= quantidadePetiscos; i++) {
-      console.log(i < quantidadePetiscos ? `Ganhei ${i} petisco. Quero mais!` : 'Agora estou satisfeito!');
-  }
+    for (let i = 1; i <= quantidadePetiscos; i++) {
+        console.log(i < quantidadePetiscos ? `Ganhei ${i} petisco. Quero mais!` : 'Agora estou satisfeito!');
+    }
 }
 
 alimentarDog(4)

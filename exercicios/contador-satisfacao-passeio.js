@@ -15,35 +15,35 @@
 
  */
 
-  const voltasParaDogFicarSatisfeito = 5
-  let volta = 0
-  
-  while (volta <= voltasParaDogFicarSatisfeito) {
-  
+const voltasParaDogFicarSatisfeito = 5
+let volta = 0
+
+while (volta <= voltasParaDogFicarSatisfeito) {
+
     console.log(`Volta de nº ${volta} com o Pitoco`)
     console.log(`Pitoco ainda não está satisfeito!`)
-  
+
     volta++
-  }
-  
-  console.log(`Acaboooooou o passeio, Pitoco!`)
-  console.log(`----------------------------`)
-  
-  // com a função (extra)
-  function verificarSeEstaSatisfeito(qtdVoltas) {
-  
+}
+
+console.log(`Acaboooooou o passeio, Pitoco!`)
+console.log(`----------------------------`)
+
+// com a função (extra)
+function verificarSeEstaSatisfeito(qtdVoltas) {
+
     const voltasParaDogFicarSatisfeito = qtdVoltas
     let volta = 0
-  
+
     while (volta <= voltasParaDogFicarSatisfeito) {
-  
-      console.log(`Volta de nº ${volta} com o Pitoco`)
-      console.log(`Pitoco ainda não está satisfeito!`)
-  
-      volta++
+
+        console.log(`Volta de nº ${volta} com o Pitoco`)
+        console.log(`Pitoco ainda não está satisfeito!`)
+
+        volta++
     }
-  
+
     console.log(`Acaboooooou o passeio, Pitoco!`)
-  }
-  
-  verificarSeEstaSatisfeito(10)
+}
+
+verificarSeEstaSatisfeito(10)

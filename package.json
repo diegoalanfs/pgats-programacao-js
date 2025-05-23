@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/diegoalanfs/pgats-programacao-js/issues"
   },
-  "homepage": "https://github.com/diegoalanfs/pgats-programacao-js#readme"
+  "homepage": "https://github.com/diegoalanfs/pgats-programacao-js#readme",
+  "devDependencies": {
+    "mocha": "^11.4.0"
+  }
 }

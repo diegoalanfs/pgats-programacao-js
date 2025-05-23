@@ -11,10 +11,10 @@ switch (porte) {
     break
   case 'médio':
     atividade = `caminhada no quarteirão`
-    break 
+    break
   case 'grande':
     atividade = `correr no parque`
-    break 
+    break
   default:
     atividade = `porte inválido`
 }
@@ -34,4 +34,4 @@ if (tempo < 15) {
   mensagem = `hora da diversão`
 }
 
-console.log(`${ mensagem }: [${ atividade }]`)
+console.log(`${mensagem}: [${atividade}]`)

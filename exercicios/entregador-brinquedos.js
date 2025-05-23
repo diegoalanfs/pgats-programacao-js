@@ -17,69 +17,69 @@ const brinquedos = [
     'Osso',
     'Corda',
     'Sino'
-  ]
-  
-  brinquedos.forEach(brinquedo => {
+]
+
+brinquedos.forEach(brinquedo => {
     console.log(`Entregando o brinquedo - ${brinquedo}`)
-  })
-  
-  console.log(`Todos brinquedos foram entregues!`)
-  
-  // Exemplo de aluno
-  
-  const brinquedosEntregues = []
-  
-  const brinquedos2 = [
+})
+
+console.log(`Todos brinquedos foram entregues!`)
+
+// Exemplo de aluno
+
+const brinquedosEntregues = []
+
+const brinquedos2 = [
     'Bola',
     'Osso',
     'Corda',
     'Sino'
-  ]
-  
-  brinquedos2.forEach(brinquedo => {
+]
+
+brinquedos2.forEach(brinquedo => {
     console.log(`Entregando o brinquedo - ${brinquedo}`)
-  
+
     brinquedosEntregues.push(brinquedo)
-  })
-  
-  console.log(`Todos brinquedos foram entregues! - ${brinquedosEntregues.join(',')}`)
-  
-  // Exemplo de aluno 
-  
-  const brinquedosComNomeECor = [
+})
+
+console.log(`Todos brinquedos foram entregues! - ${brinquedosEntregues.join(',')}`)
+
+// Exemplo de aluno 
+
+const brinquedosComNomeECor = [
     {
-      nome: 'Bola',
-      cor: 'Amarela'
+        nome: 'Bola',
+        cor: 'Amarela'
     },
     {
-      nome: 'Osso',
-      cor: 'Cinza'
+        nome: 'Osso',
+        cor: 'Cinza'
     }
-  ]
-  
-  brinquedosComNomeECor.forEach(brinquedo => {
+]
+
+brinquedosComNomeECor.forEach(brinquedo => {
     console.log(`Entregando o brinquedo ${brinquedo.nome}, de cor ${brinquedo.cor}`)
-  })
-  
-  // ---
-  
-  const listaDeBrinquedosDoCachorro = [
+})
+
+// ---
+
+const listaDeBrinquedosDoCachorro = [
     'Bola',
     'Osso',
     'Corda',
     'Sino',
-  ]
-  
-  listaDeBrinquedosDoCachorro.forEach(Cachorro => {
+]
+
+listaDeBrinquedosDoCachorro.forEach(Cachorro => {
     console.log(Cachorro)
-  })
-        
-  // exemplo de aluno - extra 
-  
-  function entregarBrinquedos(brinquedos) {
+})
+
+// exemplo de aluno - extra 
+
+function entregarBrinquedos(brinquedos) {
     brinquedos.forEach((brinquedo, i) => {
         console.log(`Entregando brinquedo ${i + 1}: ${brinquedo}`);
     });
-  }
-  
-  entregarBrinquedos(brinquedos)
+}
+
+entregarBrinquedos(brinquedos)

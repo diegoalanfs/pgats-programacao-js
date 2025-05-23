@@ -51,7 +51,7 @@ function exibirTabelaPets(pets, tempoDisponivel) {
         TempoAtividade: `${pet.tempoAtividade} min`,
         Plano: `${ajustarMensagemTempo(pet.tempoAtividade)}${verificarAtividadePorPorte(pet)}`
     }));
-    
+
     // Exibe o título da tabela
     console.log(`============= Plano de Atividades para o Pet ==================`);
 

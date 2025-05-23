@@ -25,23 +25,23 @@ function filtrarInteiros(lista) {
 
 
 const vogais = ["a", "e", "i", "o", "u"]
-const textos = [{texto: "Teste de Vogais",}
-    ,{texto: "Why",}
-    ,{texto: "Contador",}]
+const textos = [{ texto: "Teste de Vogais", }
+    , { texto: "Why", }
+    , { texto: "Contador", }]
 
 console.log("================= Contador de Vogais ===========")
 
 console.table([{
     Texto: textos[0].texto,
-    QdtVogais: contarVogais(textos[0].texto,vogais),
+    QdtVogais: contarVogais(textos[0].texto, vogais),
 },
 {
     Texto: textos[1].texto,
-    QdtVogais: contarVogais(textos[1].texto,vogais),
+    QdtVogais: contarVogais(textos[1].texto, vogais),
 },
 {
     Texto: textos[2].texto,
-    QdtVogais: contarVogais(textos[2].texto,vogais),
+    QdtVogais: contarVogais(textos[2].texto, vogais),
 }])
 console.log("================================================")
 
