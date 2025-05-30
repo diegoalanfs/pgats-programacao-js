@@ -3,17 +3,15 @@ function geradorDeTagsDeIdentificacao(nome) {
 }
 
 function verificarSePodeSerAdotado(idade, porte) {
-    const adocao = idade >= 1 && porte === 'M'
+    const adocao = idade === 1 && porte === 'M'
         ? true
-        : porte === 'P'
-            ? true
-            : false
+        : false
     return adocao
 }
 
 function calcularConsumoDeRacao(nome, idade, peso) {
     // Peso 14.5kg deve retornar 4350g
-    // Isso significa que aproximadamente 300g por kg de peso
+    // Isso significa que aproximadamente 300g por kg
     const consumoPorKg = 300;
     const consumoDiario = peso * consumoPorKg;
 
@@ -23,7 +21,7 @@ function calcularConsumoDeRacao(nome, idade, peso) {
 function decidirTipoDeAtividadePorPorte(porte) {
     let atividade;
 
-    switch (porte) {
+    switch (porte.toLowerCase()) {
         case 'pequeno':
             atividade = 'brincar dentro de casa';
             break;
@@ -41,8 +39,12 @@ function decidirTipoDeAtividadePorPorte(porte) {
 }
 
 async function buscarDadoAsync() {
-    // Retorna diretamente o valor 'Pipoca' de forma assíncrona
-    return 'Pipoca';
+    const dado = "Pipoca"
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(dado);
+        }, 1000);
+    });
 }
 
 
