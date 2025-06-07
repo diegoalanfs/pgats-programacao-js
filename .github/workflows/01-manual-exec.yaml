@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  e2e-tests:
+  tests:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,7 +26,7 @@ jobs:
       - name: Instalando Mocha
         run: yarn add --dev mocha
 
-      - name: Executando Testes E2E
-        run: yarn run e2e
+      - name: Executando Testes
+        run: yarn test
 
       

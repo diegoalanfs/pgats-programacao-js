@@ -5,8 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "e2e": "mocha ./testes/trabalho-final.js"
+    "test": "mocha ./testes/trabalho-final.js"
   },
   "repository": {
     "type": "git",
